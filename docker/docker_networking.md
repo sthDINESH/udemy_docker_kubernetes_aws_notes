@@ -116,3 +116,4 @@ docker network disconnect [network-name/id] [container-name/id]
 - In custom bridge network:
     - containers can access each other through IP addresses.
     - In addition, custom network enables DNS resolution of container names to their respective IP addresses.
+        - containers can communicate by names.
